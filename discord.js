@@ -19,5 +19,5 @@ client.on('message', message =>{
         message.channel.send('hey all scott here!')
     }
 });
-
-client.login("NzMwNDUwNDMzMTkzMDE3Mzg1.Xwc1yQ.3xbiVToeQMszCaajEXhHW_OX2fg");
+const key = require("./key.js");
+client.login(key);
