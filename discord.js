@@ -19,27 +19,27 @@ client.on('message', message =>{
         message.channel.send('hey all scott here!')
     }
 
-if(command === 'so tell me where it begins'){
+if(message.content === 'so tell me where it begins'){
     message.channel.send("so it all started at my desk")
 }
 
-if(command === "scott what are you"){
+if(message.content === "scott what are you"){
     message.channel.send('the anti virgin')
 }
 
-if(command === 'my favorite madden is madden 09'){
+if(message.content === 'my favorite madden is madden 09'){
     message.channel.send('you are a fucking discrase')
 }
 
-if(command === 'say it with me'){
+if(message.content === 'say it with me'){
     message.channel.send('gay conversion therapy')
 }
 
-if(command === 'wii play do you'){
+if(message.content === 'wii play do you'){
     message.channel.send('is that a threat')
 }
 
-if(command == 'do you sell wii play'){
+if(message.content == 'do you sell wii play'){
     message.channel.send('oh dont even get me started')
 }
 });
