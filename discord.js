@@ -39,11 +39,11 @@ if(message.content === 'wii play do you'){
     message.channel.send('is that a threat')
 }
 
-if(message.content == 'do you sell wii play'){
+if(message.content === 'do you sell wii play'){
     message.channel.send('oh dont even get me started')
 }
 
-if(message.content == 'coins are back bitches'){
+if(message.content === 'coins are back bitches'){
     message.channel.send('there are no easter eggs here')
 }
 });
