@@ -42,6 +42,10 @@ if(message.content === 'wii play do you'){
 if(message.content == 'do you sell wii play'){
     message.channel.send('oh dont even get me started')
 }
+
+if(message.content == 'coins are back bitches'){
+    message.channel.send('there are no easter eggs here')
+}
 });
 const key = require("./key.js");
 client.login(key);
