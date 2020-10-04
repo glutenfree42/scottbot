@@ -43,7 +43,7 @@ if(message.content === 'do you sell wii play'){
     message.channel.send('oh dont even get me started')
 }
 
-if(message.content === 'coins are back bitches'){
+if(message.content === 'oh my god this room is crazy,fuck my arteries'){
     message.channel.send('there are no easter eggs here')
 }
 });
