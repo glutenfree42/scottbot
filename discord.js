@@ -46,6 +46,26 @@ if(message.content === 'do you sell wii play'){
 if(message.content === 'oh my god this room is crazy,fuck my arteries'){
     message.channel.send('there are no easter eggs here')
 }
+
+if(message.content === 'is that pose mii'){
+    message.channel.send('SH*T')
+}
+
+if(message.content === 'say have you ever been in a pickle like this'){
+    message.channel.send('fellas fellas im so horny')
+}
+
+if(message.content === 'your apparent in the walmart video game section and you only have 1 thing on you mind'){
+    message.channel.send('I have 20$ and i need a wii game for my kid')
+}
+
+if(message.content === 'so dr usb huh you mean like one of these'){
+    message.channel.send('what are you doing')
+}
+
+if(message.content === 'speaking of cartridge shaped garbage, take a look at chibi robo ziplash'){
+    message.channel.send('this game blows')
+}
 });
 const key = require("./key.js");
 client.login(key);
