@@ -8,7 +8,7 @@ client.once('ready', () => {
      console.log(`Logged in as ${client.user.tag}!`);
      client.user.setPresence({
          status:"online",
-         game: {
+         activity: {
              name: "madden 08",
              type: "PLAYING"
          } 
