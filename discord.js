@@ -5,7 +5,14 @@ const client = new Discord.Client();
  
 
 client.once('ready', () => {
-     console.log('scott bot is online!') 
+     console.log('Logged in as ${client.user.tag}!');
+     client.user;setPresence({
+         status:"online",
+         game: {
+             name: "a wii loaded with wii ware games",
+             type: "having"
+         } 
+   });  
 });
 
 client.on('message', message =>{
