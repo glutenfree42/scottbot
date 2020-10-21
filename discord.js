@@ -5,12 +5,12 @@ const client = new Discord.Client();
  
 
 client.once('ready', () => {
-     console.log('Logged in as ${client.user.tag}!');
+     console.log(`Logged in as ${client.user.tag}!`);
      client.user.setPresence({
          status:"online",
          game: {
-             name: "a wii loaded with wii ware games",
-             type: "having"
+             name: "madden 08",
+             type: "PLAYING"
          } 
    });  
 });
